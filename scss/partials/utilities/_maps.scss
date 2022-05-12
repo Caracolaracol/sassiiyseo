@@ -1,0 +1,15 @@
+@import "../variables/variables";
+
+
+/* No pude borrar este $map que no estoy utilizando porque el watcher de scss me da error */
+$map: (
+    boton-1: $color-principal, 
+    boton-2: $color-segundo, 
+    boton-3: $color-tercero,
+); 
+
+$colores-botones: (
+    boton: $color-principal, 
+    boton-2: $color-segundo, 
+    boton-3: $color-tercero,
+);
