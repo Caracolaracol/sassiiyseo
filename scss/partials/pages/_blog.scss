@@ -1,7 +1,7 @@
  /* ------------Pagina Blog------------ */
 
- .blog-margin {
-    @include margenes-pages(20%, 20%);
+.blog-margin {
+    @include margenes-pages(20%, 20%);  /* agregando un mixin */
     main {
         .titulo-blog {
             margin: 2vw;

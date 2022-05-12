@@ -248,6 +248,7 @@ header {
     margin-left: 7vw;
     margin-right: 7vw; } }
 
+/* utilizando una operacion */
 @media screen and (max-width: 768px) {
   .tienda-index {
     margin-left: 6vw;
@@ -375,7 +376,8 @@ form {
 /* ------------Pagina Blog------------ */
 .blog-margin {
   margin-left: 20%;
-  margin-right: 20%; }
+  margin-right: 20%;
+  /* agregando un mixin */ }
   .blog-margin main .titulo-blog {
     margin: 2vw; }
   .blog-margin main .entradas-blog {
